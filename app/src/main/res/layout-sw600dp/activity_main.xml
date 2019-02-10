@@ -2,30 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/text_shoppingCart"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/text_cart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textAlignment="gravity"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        app:layout_constraintVertical_bias="0.067"/>
+        app:layout_constraintVertical_bias="0.067"
+        android:gravity="center"
+        android:textAlignment="gravity"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginTop="400dp"
-        android:text="@string/button_order"
-        android:onClick="makeOrder"/>
+        android:layout_marginTop="750dp"
+        android:onClick="makeOrder"
+        android:text="@string/button_order" />
 
 </LinearLayout>

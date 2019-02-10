@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Shopping List</string>
+    <string name="app_name">Assignment1</string>
+    <string name="btn_rice">Rice</string>
+    <string name="btn_tomato">Tomato</string>
+    <string name="btn_apple">Apple</string>
+    <string name="btn_cheese">Cheese</string>
+    <string name="btn_orange">Orange</string>
+    <string name="btn_banana">Banana</string>
+    <string name="btn_pepper">Pepper</string>
+    <string name="btn_lettuce">Lettuce</string>
+    <string name="btn_milk">Milk</string>
+    <string name="button_Order">Make Order</string>
+    <string name="button_order">Order</string>
+    <string name="btn_candy">Candy</string>
 </resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/btn_rice"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="13dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Rice"
+        android:text="@string/btn_rice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_tomato"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="180dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Tomato"
+        android:text="@string/btn_tomato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_apple"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Apple"
+        android:text="@string/btn_apple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rice" />
+
+    <Button
+        android:id="@+id/btn_cheese"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="180dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Cheese"
+        android:text="@string/btn_cheese"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tomato" />
+
+    <Button
+        android:id="@+id/btn_orange"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="180dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Orange"
+        android:text="@string/btn_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cheese" />
+
+    <Button
+        android:id="@+id/btn_banana"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="180dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Banana"
+        android:text="@string/btn_banana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_orange" />
+
+    <Button
+        android:id="@+id/btn_pepper"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="180dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Pepper"
+        android:text="@string/btn_pepper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_banana" />
+
+    <Button
+        android:id="@+id/btn_lettuce"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Lettuce"
+        android:text="@string/btn_lettuce"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_milk" />
+
+    <Button
+        android:id="@+id/btn_milk"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Milk"
+        android:text="@string/btn_milk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_candy" />
+
+    <Button
+        android:id="@+id/btn_candy"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="addProduct"
+        android:tag="Candy"
+        android:text="@string/btn_candy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_apple" />
+
+</android.support.constraint.ConstraintLayout>
